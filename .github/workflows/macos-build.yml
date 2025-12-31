@@ -55,6 +55,7 @@ jobs:
 
       - name: Flet Build macOS
         run: |
+          ulimit -n 10240
           flet build macos --verbose --build-number=$BUILD_NUMBER --build-version=$BUILD_VERSION
 
       - name: Upload macOS Artifact
