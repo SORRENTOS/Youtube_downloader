@@ -1,5 +1,4 @@
 import flet as ft
-import json
 import yt_dlp
 import time
 from yt_dlp import YoutubeDL
